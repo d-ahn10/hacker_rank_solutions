@@ -1,1 +1,1 @@
-# Hacker Rank Problem Solutions
+# Hacker Rank Problem Practice
