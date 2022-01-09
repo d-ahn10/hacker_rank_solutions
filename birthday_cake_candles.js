@@ -4,14 +4,10 @@ function birthdayCakeCandles(candles) {
     for (let i = 0; i < candles.length; i++) {
         if (candles[i] > tallestCandle) {
             tallestCandle = candles[i];
-        }
-    }
-    
-    for (let j = 0; j < candles.length; j++) {
-        if (candles[j] == tallestCandle) {
+            tallestCandleCount = 1;
+        } else if (candles[i] === tallestCandle) {
             tallestCandleCount++;
         }
     }
-    
     return tallestCandleCount;
 }
